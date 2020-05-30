@@ -3,6 +3,6 @@ web_drivers/
 .pytest_cache/
 .idea/
 test_framework/.pytest_cache/
-test_framework/.idea/
+test_framework/__pycache__/
 CSS-Selectors-Cheat-Sheet.pdf
 XPath-Cheat-Sheet.pdf
