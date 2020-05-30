@@ -2,5 +2,7 @@ venv_3.8/
 web_drivers/
 .pytest_cache/
 .idea/
+test_framework/.pytest_cache/
+test_framework/.idea/
 CSS-Selectors-Cheat-Sheet.pdf
 XPath-Cheat-Sheet.pdf
