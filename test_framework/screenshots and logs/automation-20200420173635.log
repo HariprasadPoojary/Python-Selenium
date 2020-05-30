@@ -1,0 +1,23 @@
+2020-04-20 17:36:35,649 - Utilities - INFO: Utilities class instantiated with excel file where filename - H:\Softwares\Python files\Extras\Selenium_Automation\Basics\test_framework\configfiles\test_data.xlsxSheet name - CreateAccount
+2020-04-20 17:36:35,649 - Utilities - INFO: Row count for excel file H:\Softwares\Python files\Extras\Selenium_Automation\Basics\test_framework\configfiles\test_data.xlsx is 4
+2020-04-20 17:36:35,649 - Utilities - INFO: Column count for excel file H:\Softwares\Python files\Extras\Selenium_Automation\Basics\test_framework\configfiles\test_data.xlsx is 20
+2020-04-20 17:36:35,649 - TestCreateAccount - INFO: [['Mr.', 'Bruce', 'Wayne', 'bruce@wayne.com', 'bruce123', datetime.datetime(1963, 2, 19, 0, 0), 'N', 'N'], ['Mrs.', 'Selina', 'Kyle', 'selina@wayne.com', 'selina123', datetime.datetime(1985, 9, 21, 0, 0), 'Y', 'Y'], ['Mrs.', 'Harley', 'Quinn', 'harley@joker.com', 'harley123', datetime.datetime(1990, 7, 20, 0, 0), 'N', 'Y']]
+2020-04-20 17:36:35,652 - TestCreateAccount - INFO: [['Wayne Enterprises', 1007, ' Mountain Drive', 'Gotham', 'Arizona', 22731, "I'm Watching", '0565656676', None, 'batman@gotham.com'], ['Wayne Enterprises', 108, 'Moor lane', 'Gotham', 'Delaware', 22732, 'Catwoman', '0565656679', '0565656681', 'catwoman@gotham.com'], ['Birds of Prey', 111, 'Leake road', 'Gotham', 'Hawaii', 22733, 'Bad Girl', '0565656680', None, 'harley@gotham.com']]
+2020-04-20 17:36:35,676 - class_setup - INFO: Conftest running now
+2020-04-20 17:36:35,676 - class_setup - INFO: Running on Browser chrome
+2020-04-20 17:36:49,676 - CreateAccount - INFO: Element //a[@title="Log in to your customer account"] found
+2020-04-20 17:36:51,196 - CreateAccount - INFO: Clicked on element with locator://a[@title="Log in to your customer account"] with locator_type: xpath
+2020-04-20 17:36:51,206 - CreateAccount - INFO: Element email found
+2020-04-20 17:36:51,289 - CreateAccount - INFO: Data: bruce@wayne.com sent to element with locator:email and locator_type: id
+2020-04-20 17:36:51,297 - CreateAccount - INFO: Element passwd found
+2020-04-20 17:36:51,383 - CreateAccount - INFO: Data: HariPassword sent to element with locator:passwd and locator_type: id
+2020-04-20 17:36:51,391 - CreateAccount - INFO: Element SubmitLogin found
+2020-04-20 17:36:52,494 - CreateAccount - INFO: Clicked on element with locator:SubmitLogin with locator_type: id
+2020-04-20 17:36:52,513 - CreateAccount - INFO: Element .//a[@title="View my customer account"]/span found
+2020-04-20 17:36:52,525 - CreateAccount - INFO: Text at Element .//a[@title="View my customer account"]/span is Hariprasad Poojary
+2020-04-20 17:36:53,003 - CreateAccount - INFO: Screenshot saved "SS-already_registered-20200420173652.png"
+2020-04-20 17:36:53,013 - CreateAccount - INFO: Element .//a[@title="Log me out"] found
+2020-04-20 17:36:55,095 - CreateAccount - INFO: Clicked on element with locator:.//a[@title="Log me out"] with locator_type: xpath
+2020-04-20 17:36:55,096 - TestStatus - INFO: ** TEST VERIFICATION PASS:: Verified
+2020-04-20 17:36:55,096 - TestStatus - INFO: Test test_already_registered_account execution has been passed!!
+2020-04-20 17:37:00,212 - class_setup - INFO: Conftest ran

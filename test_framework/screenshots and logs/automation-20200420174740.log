@@ -1,0 +1,264 @@
+2020-04-20 17:47:40,951 - Utilities - INFO: Utilities class instantiated with excel file where filename - H:\Softwares\Python files\Extras\Selenium_Automation\Basics\test_framework\configfiles\test_data.xlsxSheet name - CreateAccount
+2020-04-20 17:47:40,952 - Utilities - INFO: Row count for excel file H:\Softwares\Python files\Extras\Selenium_Automation\Basics\test_framework\configfiles\test_data.xlsx is 4
+2020-04-20 17:47:40,952 - Utilities - INFO: Column count for excel file H:\Softwares\Python files\Extras\Selenium_Automation\Basics\test_framework\configfiles\test_data.xlsx is 20
+2020-04-20 17:47:40,952 - TestCreateAccount - INFO: [['Mr.', 'Bruce', 'Wayne', 'bruce@wayne.com', 'bruce123', datetime.datetime(1963, 2, 19, 0, 0), 'N', 'N'], ['Mrs.', 'Selina', 'Kyle', 'selina@wayne.com', 'selina123', datetime.datetime(1985, 9, 21, 0, 0), 'Y', 'Y'], ['Mrs.', 'Harley', 'Quinn', 'harley@joker.com', 'harley123', datetime.datetime(1990, 7, 20, 0, 0), 'N', 'Y']]
+2020-04-20 17:47:40,953 - TestCreateAccount - INFO: [['Wayne Enterprises', 1007, ' Mountain Drive', 'Gotham', 'Arizona', 22731, "I'm Watching", '0565656676', None, 'batman@gotham.com'], ['Wayne Enterprises', 108, 'Moor lane', 'Gotham', 'Delaware', 22732, 'Catwoman', '0565656679', '0565656681', 'catwoman@gotham.com'], ['Birds of Prey', 111, 'Leake road', 'Gotham', 'Hawaii', 22733, 'Bad Girl', '0565656680', None, 'harley@gotham.com']]
+2020-04-20 17:47:40,967 - class_setup - INFO: Conftest running now
+2020-04-20 17:47:40,967 - class_setup - INFO: Running on Browser chrome
+2020-04-20 17:47:56,107 - CreateAccount - INFO: Element //a[@title="Log in to your customer account"] found
+2020-04-20 17:47:59,043 - CreateAccount - INFO: Clicked on element with locator://a[@title="Log in to your customer account"] with locator_type: xpath
+2020-04-20 17:47:59,059 - CreateAccount - INFO: Element email found
+2020-04-20 17:47:59,137 - CreateAccount - INFO: Data: bruce@wayne.com sent to element with locator:email and locator_type: id
+2020-04-20 17:47:59,145 - CreateAccount - INFO: Element passwd found
+2020-04-20 17:47:59,226 - CreateAccount - INFO: Data: HariPassword sent to element with locator:passwd and locator_type: id
+2020-04-20 17:47:59,235 - CreateAccount - INFO: Element SubmitLogin found
+2020-04-20 17:48:01,020 - CreateAccount - INFO: Clicked on element with locator:SubmitLogin with locator_type: id
+2020-04-20 17:48:01,031 - CreateAccount - INFO: Element .//a[@title="View my customer account"]/span found
+2020-04-20 17:48:01,043 - CreateAccount - INFO: Text at Element .//a[@title="View my customer account"]/span is Hariprasad Poojary
+2020-04-20 17:48:01,435 - CreateAccount - INFO: Screenshot saved "SS-already_registered-20200420174801.png"
+2020-04-20 17:48:01,445 - CreateAccount - INFO: Element .//a[@title="Log me out"] found
+2020-04-20 17:48:04,489 - CreateAccount - INFO: Clicked on element with locator:.//a[@title="Log me out"] with locator_type: xpath
+2020-04-20 17:48:04,489 - TestStatus - INFO: ** TEST VERIFICATION PASS:: Verified
+2020-04-20 17:48:04,489 - TestStatus - INFO: Test test_already_registered_account execution has been passed!!
+2020-04-20 17:48:04,498 - CreateAccount - INFO: Element //a[@title="Log in to your customer account"] found
+2020-04-20 17:48:05,802 - CreateAccount - INFO: Clicked on element with locator://a[@title="Log in to your customer account"] with locator_type: xpath
+2020-04-20 17:48:05,813 - CreateAccount - INFO: Element //input[@id="email_create"] found
+2020-04-20 17:48:05,888 - CreateAccount - INFO: Data: bruce@wayne.com sent to element with locator://input[@id="email_create"] and locator_type: xpath
+2020-04-20 17:48:05,896 - CreateAccount - INFO: Element //button[@id="SubmitCreate"] found
+2020-04-20 17:48:05,968 - CreateAccount - INFO: Clicked on element with locator://button[@id="SubmitCreate"] with locator_type: xpath
+2020-04-20 17:48:07,979 - CreateAccount - INFO: Element //div[@id="create_account_error"]//li[contains(text(),"already been registered")] found
+2020-04-20 17:48:07,979 - CreateAccount - INFO: Element at location //div[@id="create_account_error"]//li[contains(text(),"already been registered")] is present
+2020-04-20 17:48:07,985 - CreateAccount - INFO: Page scrolled down 500 pixels
+2020-04-20 17:48:08,365 - CreateAccount - INFO: Screenshot saved "SS-reach_signup-20200420174807.png"
+2020-04-20 17:48:08,366 - CreateAccount - INFO: Reach Sign-up completed
+2020-04-20 17:48:08,372 - CreateAccount - INFO: Element //a[@title="Log in to your customer account"] found
+2020-04-20 17:48:09,962 - CreateAccount - INFO: Clicked on element with locator://a[@title="Log in to your customer account"] with locator_type: xpath
+2020-04-20 17:48:09,969 - CreateAccount - INFO: Element //input[@id="email_create"] found
+2020-04-20 17:48:10,044 - CreateAccount - INFO: Data: bruce178@wayne.com sent to element with locator://input[@id="email_create"] and locator_type: xpath
+2020-04-20 17:48:10,049 - CreateAccount - INFO: Element //button[@id="SubmitCreate"] found
+2020-04-20 17:48:10,089 - CreateAccount - INFO: Clicked on element with locator://button[@id="SubmitCreate"] with locator_type: xpath
+2020-04-20 17:48:15,133 - CreateAccount - ERROR: Element //div[@id="create_account_error"]//li[contains(text(),"already been registered")] not found
+2020-04-20 17:48:15,133 - CreateAccount - ERROR: Element at location //div[@id="create_account_error"]//li[contains(text(),"already been registered")] is not present
+2020-04-20 17:48:15,133 - CreateAccount - INFO: Reach Sign-up completed
+2020-04-20 17:48:16,153 - CreateAccount - INFO: Element uniform-id_gender1 found
+2020-04-20 17:48:16,186 - CreateAccount - INFO: Clicked on element with locator:uniform-id_gender1 with locator_type: id
+2020-04-20 17:48:16,194 - CreateAccount - INFO: Element email found
+2020-04-20 17:48:16,201 - CreateAccount - INFO: Value of Element bruce178@wayne.com at locator email-(id) is returned
+2020-04-20 17:48:16,209 - CreateAccount - INFO: Element customer_firstname found
+2020-04-20 17:48:16,263 - CreateAccount - INFO: Data: Bruce sent to element with locator:customer_firstname and locator_type: id
+2020-04-20 17:48:16,271 - CreateAccount - INFO: Element customer_lastname found
+2020-04-20 17:48:16,317 - CreateAccount - INFO: Data: Wayne sent to element with locator:customer_lastname and locator_type: id
+2020-04-20 17:48:16,325 - CreateAccount - INFO: Element passwd found
+2020-04-20 17:48:16,379 - CreateAccount - INFO: Data: bruce123 sent to element with locator:passwd and locator_type: id
+2020-04-20 17:48:16,388 - CreateAccount - INFO: Element days found
+2020-04-20 17:48:16,388 - CreateAccount - INFO: Selecting element at days by text - 19  
+2020-04-20 17:48:19,542 - CreateAccount - INFO: Element months found
+2020-04-20 17:48:19,542 - CreateAccount - INFO: Selecting element at months by index - 2
+2020-04-20 17:48:19,616 - CreateAccount - INFO: Element years found
+2020-04-20 17:48:19,616 - CreateAccount - INFO: Selecting element at years by text - 1963  
+2020-04-20 17:48:22,745 - CreateAccount - INFO: Element customer_firstname found
+2020-04-20 17:48:22,751 - CreateAccount - INFO: Value of Element Bruce at locator customer_firstname-(id) is returned
+2020-04-20 17:48:22,757 - CreateAccount - INFO: Element customer_firstname found
+2020-04-20 17:48:22,763 - CreateAccount - INFO: Value of Element Bruce at locator customer_firstname-(id) is returned
+2020-04-20 17:48:22,769 - CreateAccount - INFO: Element customer_lastname found
+2020-04-20 17:48:22,774 - CreateAccount - INFO: Value of Element Wayne at locator customer_lastname-(id) is returned
+2020-04-20 17:48:22,780 - CreateAccount - INFO: Element customer_lastname found
+2020-04-20 17:48:22,784 - CreateAccount - INFO: Value of Element Wayne at locator customer_lastname-(id) is returned
+2020-04-20 17:48:22,790 - CreateAccount - INFO: Element customer_firstname found
+2020-04-20 17:48:22,793 - CreateAccount - INFO: Value of Element Bruce at locator customer_firstname-(id) is returned
+2020-04-20 17:48:22,799 - CreateAccount - INFO: Element customer_firstname found
+2020-04-20 17:48:22,804 - CreateAccount - INFO: Value of Element Bruce at locator customer_firstname-(id) is returned
+2020-04-20 17:48:22,804 - CreateAccount - INFO: Personal Info Name = Bruce is equal to Bruce
+2020-04-20 17:48:22,812 - CreateAccount - INFO: Element company found
+2020-04-20 17:48:22,920 - CreateAccount - INFO: Data: Wayne Enterprises sent to element with locator:company and locator_type: id
+2020-04-20 17:48:22,928 - CreateAccount - INFO: Element address1 found
+2020-04-20 17:48:22,969 - CreateAccount - INFO: Data: 1007 sent to element with locator:address1 and locator_type: id
+2020-04-20 17:48:22,977 - CreateAccount - INFO: Element address2 found
+2020-04-20 17:48:23,050 - CreateAccount - INFO: Data:  Mountain Drive sent to element with locator:address2 and locator_type: id
+2020-04-20 17:48:23,058 - CreateAccount - INFO: Element city found
+2020-04-20 17:48:23,105 - CreateAccount - INFO: Data: Gotham sent to element with locator:city and locator_type: id
+2020-04-20 17:48:23,113 - CreateAccount - INFO: Element id_state found
+2020-04-20 17:48:23,113 - CreateAccount - INFO: Selecting element at id_state by text - Arizona
+2020-04-20 17:48:23,171 - CreateAccount - INFO: Element postcode found
+2020-04-20 17:48:23,222 - CreateAccount - INFO: Data: 22731 sent to element with locator:postcode and locator_type: id
+2020-04-20 17:48:23,230 - CreateAccount - INFO: Element other found
+2020-04-20 17:48:23,289 - CreateAccount - INFO: Data: I'm Watching sent to element with locator:other and locator_type: id
+2020-04-20 17:48:23,297 - CreateAccount - INFO: Element phone found
+2020-04-20 17:48:23,358 - CreateAccount - INFO: Data: 0565656676 sent to element with locator:phone and locator_type: id
+2020-04-20 17:48:23,358 - CreateAccount - ERROR: Cannot send data: None to locator:phone_mobile and locator_type: id is not clickable
+2020-04-20 17:48:23,366 - CreateAccount - INFO: Element alias found
+2020-04-20 17:48:23,443 - CreateAccount - INFO: Data: batman@gotham.com sent to element with locator:alias and locator_type: id
+2020-04-20 17:48:23,769 - CreateAccount - INFO: Screenshot saved "SS-fill_details-20200420174823.png"
+2020-04-20 17:48:23,777 - CreateAccount - INFO: Element submitAccount found
+2020-04-20 17:48:25,162 - CreateAccount - INFO: Clicked on element with locator:submitAccount with locator_type: id
+2020-04-20 17:48:30,182 - CreateAccount - INFO: Element //div[@class="header_user_info"]//span found
+2020-04-20 17:48:30,192 - CreateAccount - INFO: Text at Element //div[@class="header_user_info"]//span is Bruce Wayne
+2020-04-20 17:48:32,587 - TestStatus - INFO: ** TEST VERIFICATION PASS:: Verified
+2020-04-20 17:48:32,587 - TestStatus - INFO: Test test_create_account execution has been passed!!
+2020-04-20 17:48:32,600 - CreateAccount - INFO: Element //a[@title="Log in to your customer account"] found
+2020-04-20 17:48:34,380 - CreateAccount - INFO: Clicked on element with locator://a[@title="Log in to your customer account"] with locator_type: xpath
+2020-04-20 17:48:34,391 - CreateAccount - INFO: Element //input[@id="email_create"] found
+2020-04-20 17:48:34,458 - CreateAccount - INFO: Data: bruce@wayne.com sent to element with locator://input[@id="email_create"] and locator_type: xpath
+2020-04-20 17:48:34,467 - CreateAccount - INFO: Element //button[@id="SubmitCreate"] found
+2020-04-20 17:48:34,511 - CreateAccount - INFO: Clicked on element with locator://button[@id="SubmitCreate"] with locator_type: xpath
+2020-04-20 17:48:36,527 - CreateAccount - INFO: Element //div[@id="create_account_error"]//li[contains(text(),"already been registered")] found
+2020-04-20 17:48:36,528 - CreateAccount - INFO: Element at location //div[@id="create_account_error"]//li[contains(text(),"already been registered")] is present
+2020-04-20 17:48:36,532 - CreateAccount - INFO: Page scrolled down 500 pixels
+2020-04-20 17:48:36,872 - CreateAccount - INFO: Screenshot saved "SS-reach_signup-20200420174836.png"
+2020-04-20 17:48:36,872 - CreateAccount - INFO: Reach Sign-up completed
+2020-04-20 17:48:36,878 - CreateAccount - INFO: Element //a[@title="Log in to your customer account"] found
+2020-04-20 17:48:38,242 - CreateAccount - INFO: Clicked on element with locator://a[@title="Log in to your customer account"] with locator_type: xpath
+2020-04-20 17:48:38,249 - CreateAccount - INFO: Element //input[@id="email_create"] found
+2020-04-20 17:48:38,324 - CreateAccount - INFO: Data: bruce155@wayne.com sent to element with locator://input[@id="email_create"] and locator_type: xpath
+2020-04-20 17:48:38,328 - CreateAccount - INFO: Element //button[@id="SubmitCreate"] found
+2020-04-20 17:48:38,377 - CreateAccount - INFO: Clicked on element with locator://button[@id="SubmitCreate"] with locator_type: xpath
+2020-04-20 17:48:43,448 - CreateAccount - ERROR: Element //div[@id="create_account_error"]//li[contains(text(),"already been registered")] not found
+2020-04-20 17:48:43,448 - CreateAccount - ERROR: Element at location //div[@id="create_account_error"]//li[contains(text(),"already been registered")] is not present
+2020-04-20 17:48:43,448 - CreateAccount - INFO: Reach Sign-up completed
+2020-04-20 17:48:44,466 - CreateAccount - INFO: Element uniform-id_gender2 found
+2020-04-20 17:48:44,497 - CreateAccount - INFO: Clicked on element with locator:uniform-id_gender2 with locator_type: id
+2020-04-20 17:48:44,505 - CreateAccount - INFO: Element newsletter found
+2020-04-20 17:48:44,550 - CreateAccount - INFO: Clicked on element with locator:newsletter with locator_type: id
+2020-04-20 17:48:44,559 - CreateAccount - INFO: Element email found
+2020-04-20 17:48:44,565 - CreateAccount - INFO: Value of Element bruce155@wayne.com at locator email-(id) is returned
+2020-04-20 17:48:44,570 - CreateAccount - INFO: Element customer_firstname found
+2020-04-20 17:48:44,621 - CreateAccount - INFO: Data: Selina sent to element with locator:customer_firstname and locator_type: id
+2020-04-20 17:48:44,626 - CreateAccount - INFO: Element customer_lastname found
+2020-04-20 17:48:44,669 - CreateAccount - INFO: Data: Kyle sent to element with locator:customer_lastname and locator_type: id
+2020-04-20 17:48:44,678 - CreateAccount - INFO: Element passwd found
+2020-04-20 17:48:44,731 - CreateAccount - INFO: Data: selina123 sent to element with locator:passwd and locator_type: id
+2020-04-20 17:48:44,739 - CreateAccount - INFO: Element days found
+2020-04-20 17:48:44,739 - CreateAccount - INFO: Selecting element at days by text - 21  
+2020-04-20 17:48:47,867 - CreateAccount - INFO: Element months found
+2020-04-20 17:48:47,867 - CreateAccount - INFO: Selecting element at months by index - 9
+2020-04-20 17:48:47,973 - CreateAccount - INFO: Element years found
+2020-04-20 17:48:47,973 - CreateAccount - INFO: Selecting element at years by text - 1985  
+2020-04-20 17:48:51,090 - CreateAccount - INFO: Element customer_firstname found
+2020-04-20 17:48:51,096 - CreateAccount - INFO: Value of Element Selina at locator customer_firstname-(id) is returned
+2020-04-20 17:48:51,102 - CreateAccount - INFO: Element customer_firstname found
+2020-04-20 17:48:51,106 - CreateAccount - INFO: Value of Element Selina at locator customer_firstname-(id) is returned
+2020-04-20 17:48:51,113 - CreateAccount - INFO: Element customer_lastname found
+2020-04-20 17:48:51,117 - CreateAccount - INFO: Value of Element Kyle at locator customer_lastname-(id) is returned
+2020-04-20 17:48:51,122 - CreateAccount - INFO: Element customer_lastname found
+2020-04-20 17:48:51,125 - CreateAccount - INFO: Value of Element Kyle at locator customer_lastname-(id) is returned
+2020-04-20 17:48:51,132 - CreateAccount - INFO: Element customer_firstname found
+2020-04-20 17:48:51,136 - CreateAccount - INFO: Value of Element Selina at locator customer_firstname-(id) is returned
+2020-04-20 17:48:51,141 - CreateAccount - INFO: Element customer_firstname found
+2020-04-20 17:48:51,145 - CreateAccount - INFO: Value of Element Selina at locator customer_firstname-(id) is returned
+2020-04-20 17:48:51,146 - CreateAccount - INFO: Personal Info Name = Selina is equal to Selina
+2020-04-20 17:48:51,154 - CreateAccount - INFO: Element company found
+2020-04-20 17:48:51,251 - CreateAccount - INFO: Data: Wayne Enterprises sent to element with locator:company and locator_type: id
+2020-04-20 17:48:51,260 - CreateAccount - INFO: Element address1 found
+2020-04-20 17:48:51,296 - CreateAccount - INFO: Data: 108 sent to element with locator:address1 and locator_type: id
+2020-04-20 17:48:51,304 - CreateAccount - INFO: Element address2 found
+2020-04-20 17:48:51,359 - CreateAccount - INFO: Data: Moor lane sent to element with locator:address2 and locator_type: id
+2020-04-20 17:48:51,371 - CreateAccount - INFO: Element city found
+2020-04-20 17:48:51,424 - CreateAccount - INFO: Data: Gotham sent to element with locator:city and locator_type: id
+2020-04-20 17:48:51,432 - CreateAccount - INFO: Element id_state found
+2020-04-20 17:48:51,432 - CreateAccount - INFO: Selecting element at id_state by text - Delaware
+2020-04-20 17:48:51,492 - CreateAccount - INFO: Element postcode found
+2020-04-20 17:48:51,547 - CreateAccount - INFO: Data: 22732 sent to element with locator:postcode and locator_type: id
+2020-04-20 17:48:51,555 - CreateAccount - INFO: Element other found
+2020-04-20 17:48:51,605 - CreateAccount - INFO: Data: Catwoman sent to element with locator:other and locator_type: id
+2020-04-20 17:48:51,614 - CreateAccount - INFO: Element phone found
+2020-04-20 17:48:51,682 - CreateAccount - INFO: Data: 0565656679 sent to element with locator:phone and locator_type: id
+2020-04-20 17:48:51,690 - CreateAccount - INFO: Element phone_mobile found
+2020-04-20 17:48:51,745 - CreateAccount - INFO: Data: 0565656681 sent to element with locator:phone_mobile and locator_type: id
+2020-04-20 17:48:51,753 - CreateAccount - INFO: Element alias found
+2020-04-20 17:48:51,834 - CreateAccount - INFO: Data: catwoman@gotham.com sent to element with locator:alias and locator_type: id
+2020-04-20 17:48:52,178 - CreateAccount - INFO: Screenshot saved "SS-fill_details-20200420174851.png"
+2020-04-20 17:48:52,187 - CreateAccount - INFO: Element submitAccount found
+2020-04-20 17:48:53,714 - CreateAccount - INFO: Clicked on element with locator:submitAccount with locator_type: id
+2020-04-20 17:48:58,734 - CreateAccount - INFO: Element //div[@class="header_user_info"]//span found
+2020-04-20 17:48:58,744 - CreateAccount - INFO: Text at Element //div[@class="header_user_info"]//span is Selina Kyle
+2020-04-20 17:49:01,519 - TestStatus - INFO: ** TEST VERIFICATION PASS:: Verified
+2020-04-20 17:49:01,519 - TestStatus - INFO: Test test_create_account execution has been passed!!
+2020-04-20 17:49:01,532 - CreateAccount - INFO: Element //a[@title="Log in to your customer account"] found
+2020-04-20 17:49:02,960 - CreateAccount - INFO: Clicked on element with locator://a[@title="Log in to your customer account"] with locator_type: xpath
+2020-04-20 17:49:02,970 - CreateAccount - INFO: Element //input[@id="email_create"] found
+2020-04-20 17:49:03,039 - CreateAccount - INFO: Data: bruce@wayne.com sent to element with locator://input[@id="email_create"] and locator_type: xpath
+2020-04-20 17:49:03,047 - CreateAccount - INFO: Element //button[@id="SubmitCreate"] found
+2020-04-20 17:49:03,099 - CreateAccount - INFO: Clicked on element with locator://button[@id="SubmitCreate"] with locator_type: xpath
+2020-04-20 17:49:05,120 - CreateAccount - INFO: Element //div[@id="create_account_error"]//li[contains(text(),"already been registered")] found
+2020-04-20 17:49:05,120 - CreateAccount - INFO: Element at location //div[@id="create_account_error"]//li[contains(text(),"already been registered")] is present
+2020-04-20 17:49:05,125 - CreateAccount - INFO: Page scrolled down 500 pixels
+2020-04-20 17:49:05,489 - CreateAccount - INFO: Screenshot saved "SS-reach_signup-20200420174905.png"
+2020-04-20 17:49:05,489 - CreateAccount - INFO: Reach Sign-up completed
+2020-04-20 17:49:05,496 - CreateAccount - INFO: Element //a[@title="Log in to your customer account"] found
+2020-04-20 17:49:07,448 - CreateAccount - INFO: Clicked on element with locator://a[@title="Log in to your customer account"] with locator_type: xpath
+2020-04-20 17:49:07,456 - CreateAccount - INFO: Element //input[@id="email_create"] found
+2020-04-20 17:49:07,526 - CreateAccount - INFO: Data: bruce94@wayne.com sent to element with locator://input[@id="email_create"] and locator_type: xpath
+2020-04-20 17:49:07,530 - CreateAccount - INFO: Element //button[@id="SubmitCreate"] found
+2020-04-20 17:49:07,579 - CreateAccount - INFO: Clicked on element with locator://button[@id="SubmitCreate"] with locator_type: xpath
+2020-04-20 17:49:09,590 - CreateAccount - INFO: Element //div[@id="create_account_error"]//li[contains(text(),"already been registered")] found
+2020-04-20 17:49:09,590 - CreateAccount - INFO: Element at location //div[@id="create_account_error"]//li[contains(text(),"already been registered")] is present
+2020-04-20 17:49:09,594 - CreateAccount - INFO: Page scrolled down 500 pixels
+2020-04-20 17:49:09,944 - CreateAccount - INFO: Screenshot saved "SS-reach_signup-20200420174909.png"
+2020-04-20 17:49:09,944 - CreateAccount - INFO: Reach Sign-up completed
+2020-04-20 17:49:09,950 - CreateAccount - INFO: Element //a[@title="Log in to your customer account"] found
+2020-04-20 17:49:11,019 - CreateAccount - INFO: Clicked on element with locator://a[@title="Log in to your customer account"] with locator_type: xpath
+2020-04-20 17:49:11,025 - CreateAccount - INFO: Element //input[@id="email_create"] found
+2020-04-20 17:49:11,099 - CreateAccount - INFO: Data: bruce160@wayne.com sent to element with locator://input[@id="email_create"] and locator_type: xpath
+2020-04-20 17:49:11,104 - CreateAccount - INFO: Element //button[@id="SubmitCreate"] found
+2020-04-20 17:49:11,152 - CreateAccount - INFO: Clicked on element with locator://button[@id="SubmitCreate"] with locator_type: xpath
+2020-04-20 17:49:16,184 - CreateAccount - ERROR: Element //div[@id="create_account_error"]//li[contains(text(),"already been registered")] not found
+2020-04-20 17:49:16,184 - CreateAccount - ERROR: Element at location //div[@id="create_account_error"]//li[contains(text(),"already been registered")] is not present
+2020-04-20 17:49:16,184 - CreateAccount - INFO: Reach Sign-up completed
+2020-04-20 17:49:17,194 - CreateAccount - INFO: Element uniform-id_gender2 found
+2020-04-20 17:49:17,231 - CreateAccount - INFO: Clicked on element with locator:uniform-id_gender2 with locator_type: id
+2020-04-20 17:49:17,246 - CreateAccount - INFO: Element optin found
+2020-04-20 17:49:17,282 - CreateAccount - INFO: Clicked on element with locator:optin with locator_type: id
+2020-04-20 17:49:17,291 - CreateAccount - INFO: Element email found
+2020-04-20 17:49:17,297 - CreateAccount - INFO: Value of Element bruce160@wayne.com at locator email-(id) is returned
+2020-04-20 17:49:17,305 - CreateAccount - INFO: Element customer_firstname found
+2020-04-20 17:49:17,358 - CreateAccount - INFO: Data: Harley sent to element with locator:customer_firstname and locator_type: id
+2020-04-20 17:49:17,366 - CreateAccount - INFO: Element customer_lastname found
+2020-04-20 17:49:17,410 - CreateAccount - INFO: Data: Quinn sent to element with locator:customer_lastname and locator_type: id
+2020-04-20 17:49:17,417 - CreateAccount - INFO: Element passwd found
+2020-04-20 17:49:17,472 - CreateAccount - INFO: Data: harley123 sent to element with locator:passwd and locator_type: id
+2020-04-20 17:49:17,480 - CreateAccount - INFO: Element days found
+2020-04-20 17:49:17,480 - CreateAccount - INFO: Selecting element at days by text - 20  
+2020-04-20 17:49:20,595 - CreateAccount - INFO: Element months found
+2020-04-20 17:49:20,595 - CreateAccount - INFO: Selecting element at months by index - 7
+2020-04-20 17:49:20,690 - CreateAccount - INFO: Element years found
+2020-04-20 17:49:20,690 - CreateAccount - INFO: Selecting element at years by text - 1990  
+2020-04-20 17:49:23,824 - CreateAccount - INFO: Element customer_firstname found
+2020-04-20 17:49:23,830 - CreateAccount - INFO: Value of Element Harley at locator customer_firstname-(id) is returned
+2020-04-20 17:49:23,835 - CreateAccount - INFO: Element customer_firstname found
+2020-04-20 17:49:23,839 - CreateAccount - INFO: Value of Element Harley at locator customer_firstname-(id) is returned
+2020-04-20 17:49:23,844 - CreateAccount - INFO: Element customer_lastname found
+2020-04-20 17:49:23,850 - CreateAccount - INFO: Value of Element Quinn at locator customer_lastname-(id) is returned
+2020-04-20 17:49:23,855 - CreateAccount - INFO: Element customer_lastname found
+2020-04-20 17:49:23,859 - CreateAccount - INFO: Value of Element Quinn at locator customer_lastname-(id) is returned
+2020-04-20 17:49:23,865 - CreateAccount - INFO: Element customer_firstname found
+2020-04-20 17:49:23,869 - CreateAccount - INFO: Value of Element Harley at locator customer_firstname-(id) is returned
+2020-04-20 17:49:23,874 - CreateAccount - INFO: Element customer_firstname found
+2020-04-20 17:49:23,878 - CreateAccount - INFO: Value of Element Harley at locator customer_firstname-(id) is returned
+2020-04-20 17:49:23,878 - CreateAccount - INFO: Personal Info Name = Harley is equal to Harley
+2020-04-20 17:49:23,886 - CreateAccount - INFO: Element company found
+2020-04-20 17:49:23,967 - CreateAccount - INFO: Data: Birds of Prey sent to element with locator:company and locator_type: id
+2020-04-20 17:49:23,975 - CreateAccount - INFO: Element address1 found
+2020-04-20 17:49:24,013 - CreateAccount - INFO: Data: 111 sent to element with locator:address1 and locator_type: id
+2020-04-20 17:49:24,021 - CreateAccount - INFO: Element address2 found
+2020-04-20 17:49:24,077 - CreateAccount - INFO: Data: Leake road sent to element with locator:address2 and locator_type: id
+2020-04-20 17:49:24,085 - CreateAccount - INFO: Element city found
+2020-04-20 17:49:24,135 - CreateAccount - INFO: Data: Gotham sent to element with locator:city and locator_type: id
+2020-04-20 17:49:24,143 - CreateAccount - INFO: Element id_state found
+2020-04-20 17:49:24,143 - CreateAccount - INFO: Selecting element at id_state by text - Hawaii
+2020-04-20 17:49:24,200 - CreateAccount - INFO: Element postcode found
+2020-04-20 17:49:24,251 - CreateAccount - INFO: Data: 22733 sent to element with locator:postcode and locator_type: id
+2020-04-20 17:49:24,258 - CreateAccount - INFO: Element other found
+2020-04-20 17:49:24,309 - CreateAccount - INFO: Data: Bad Girl sent to element with locator:other and locator_type: id
+2020-04-20 17:49:24,317 - CreateAccount - INFO: Element phone found
+2020-04-20 17:49:24,384 - CreateAccount - INFO: Data: 0565656680 sent to element with locator:phone and locator_type: id
+2020-04-20 17:49:24,384 - CreateAccount - ERROR: Cannot send data: None to locator:phone_mobile and locator_type: id is not clickable
+2020-04-20 17:49:24,392 - CreateAccount - INFO: Element alias found
+2020-04-20 17:49:24,469 - CreateAccount - INFO: Data: harley@gotham.com sent to element with locator:alias and locator_type: id
+2020-04-20 17:49:24,786 - CreateAccount - INFO: Screenshot saved "SS-fill_details-20200420174924.png"
+2020-04-20 17:49:24,795 - CreateAccount - INFO: Element submitAccount found
+2020-04-20 17:49:27,774 - CreateAccount - INFO: Clicked on element with locator:submitAccount with locator_type: id
+2020-04-20 17:49:32,796 - CreateAccount - INFO: Element //div[@class="header_user_info"]//span found
+2020-04-20 17:49:32,806 - CreateAccount - INFO: Text at Element //div[@class="header_user_info"]//span is Harley Quinn
+2020-04-20 17:49:35,775 - TestStatus - INFO: ** TEST VERIFICATION PASS:: Verified
+2020-04-20 17:49:35,775 - TestStatus - INFO: Test test_create_account execution has been passed!!
+2020-04-20 17:49:40,909 - class_setup - INFO: Conftest ran

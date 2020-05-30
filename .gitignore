@@ -1,0 +1,6 @@
+venv_3.8/
+web_drivers/
+.pytest_cache/
+.idea/
+CSS-Selectors-Cheat-Sheet.pdf
+XPath-Cheat-Sheet.pdf
